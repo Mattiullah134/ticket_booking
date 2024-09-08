@@ -1,0 +1,31 @@
+{
+  "name": "ticket_booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "@types/node": "^18.0.6",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "epxress": "^0.0.1-security",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.2.6",
+    "pg": "^8.11.3",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
